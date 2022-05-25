@@ -260,7 +260,7 @@ css========================== */
 .blog-container{
     box-shadow: 2px 2px 35px;
     width: 95%;
-    height: 600px;
+    height: 620px;
     /* border: 5px solid black; */
     border-radius: 25px;
     margin: 0px 0 200px 30px;
@@ -317,13 +317,15 @@ css========================== */
 ==========================
 ================================================================ */
 footer{
-    margin-top: 100px;
+    margin-top: 180px;
     margin-left: 2px;
     width: 100.8%;
     height: 150px;
-    background: linear-gradient(to right,turquoise,black);
+    box-shadow: 2px 2px 25px;
+    /* background: linear-gradient(to right,turquoise,black); */
 }
 .arrowup{
+    border: none;
     position: absolute;
     z-index: 2;
     margin: 5px 0 0 400px; 
@@ -342,10 +344,12 @@ transform: rotate(90deg);
     transform: rotate(180deg);
 }
 footer svg{
-    width: 50px;
-    height: 50px;
+    text-decoration: none;
+    color: black;
+    width: 65px;
+    height: 65px;
     position: absolute;
-    margin: 10px 0 0 -25px;
+    margin: 12px 0 0 -33px;
 }
 .icon-circle,.icon-circle1,.icon-circle2{
     z-index: -1;
@@ -365,8 +369,8 @@ footer svg{
     margin: -120px 0 0 50px;
 }
 .arrowup:hover .icon-circle{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin: 50px 0 0 10px;
     transition: 0.5s;
     transform: rotate(180deg);
@@ -375,14 +379,14 @@ footer svg{
 margin: -10px 0 0 140px;
 transition: 0.5s;
 transform: rotate(180deg);
-width: 80px;
-height: 80px;
+width: 100px;
+height: 100px;
 }
 .arrowup:hover .icon-circle2{
     margin: -10px 0 0 -120px;
     transition: 0.5s;
     transform: rotate(180deg);
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     }
 }

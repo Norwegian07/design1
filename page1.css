@@ -334,7 +334,7 @@ footer{
     border: none;
     position: absolute;
     z-index: 2;
-    margin: 5px 0 0 400px; 
+    margin: 5px 0 0 440px; 
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -395,4 +395,9 @@ height: 100px;
     width: 100px;
     height: 100px;
     }
+
+
+
+
+
 }

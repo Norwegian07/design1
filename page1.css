@@ -178,31 +178,34 @@ border-bottom-left-radius: 25px;
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.first-text2{
+    margin: 10px 0 0 65px;
+    }
+    .first-text3{
+        position: relative;
+        z-index: -1;
+        margin: 5px 0 0 45px;
+    }
+    .first-text4{
+        margin: 20px 0 0 30px;
+    }
+
+
 .first-text1,.first-text1-1,.first-text1-2{
     font-size: 55px;
     font-weight: bolder;
     color: red;
     position: absolute;
     z-index: -1;
-    margin: 115px 0 0 158px;
+    margin: 115px 0 0 152px;
 }
 .first-text1-1{
-    margin-left: 140px;
+    margin-left: 133px;
 }
 .first-text1-2{
-    margin-left: 120px;
+    margin-left: 110px;
 }
-.first-text2{
-margin: 10px 0 0 65px;
-}
-.first-text3{
-    position: relative;
-    z-index: -1;
-    margin: 5px 0 0 45px;
-}
-.first-text4{
-    margin: 20px 0 0 30px;
-}
+
 .plus{
     border: none;
     width: 100px;

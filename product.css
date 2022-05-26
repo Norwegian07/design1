@@ -30,15 +30,15 @@
 }
 .product-name{
     float: right;
-    font-size: 55px;
+    font-size: 50px;
     font-family: serif;
-    margin: -455px 30px 0 40px;
+    margin: -455px 25px 0 145px;
 }
 .product-price{
     float: right;
     font-size: 65px;
     font-weight: bolder;
-    margin: -300px 200px 0 90px;
+    margin: -300px 160px 0 90px;
     color: red;
 }
 .buynow{
@@ -52,24 +52,41 @@
     font-family: sans-serif;
     background-color: orangered;
 }
+.buynow:hover{
+    margin-top: -165px;
+}
+.des-de-co-overflow{
+    width: 100%;
+    height: 110px;
+    overflow: scroll;
+    margin-top: 150px;
+    /* border: 1px solid black; */
+}
 .des-de-co-holder{
-    margin: 100px 0 0 0; 
+    margin: 25px 0 0px 0; 
+    width: 120%;
+    height: 90px;
 }
 .des-de-co-holder a{
     text-decoration: none;
     color: black;
+    display: inline;
+    margin-left: 50px;
 }
 .description,.details,.colors{
     display: inline;
-    font-size: 55px;
+    font-size: 50px;
    border-radius: 25px;
-    margin: 45px 0 0 60px;
+    margin: 55px 0 200px 60px;
     font-family: 'Times New Roman', Times, serif;
     border: 1px solid  black;
     background-color: #17525e7a;
 }
 .description{
    padding: 15px;
+}
+#DE{
+    margin-top: 100px;
 }
 .details{
     padding: 15px 40px 15px 40px;
@@ -89,7 +106,7 @@ h2,h3{
     font-size: 38px;
     letter-spacing: 1px;
     word-spacing: 2px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
 }
 h3{
     margin: 100px 0 0 25px;
@@ -132,6 +149,79 @@ td{
     width: 70%;
 }
 
+footer{
+    margin-top: 180px;
+    margin-left: 2px;
+    width: 100.8%;
+    height: 150px;
+    box-shadow: 2px 2px 25px;
+    /* background: linear-gradient(to right,turquoise,black); */
+}
+.arrowup{
+    border: none;
+    position: absolute;
+    z-index: 2;
+    margin: 5px 0 0 440px; 
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.arrowup-img{
+transform: rotate(90deg);
+    width: 122px;
+    margin: -2.5px 0 0 -6.5px;
+}
+
+.arrowup:hover{
+    transition: 0.5s;
+    transform: rotate(180deg);
+}
+footer svg{
+    text-decoration: none;
+    color: black;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    margin: 12px 0 0 -33px;
+}
+.icon-circle,.icon-circle1,.icon-circle2{
+    z-index: -1;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin: -120px 0 0 -30px;
+    border: 5px solid black;
+}
+.icon-circle1{
+    position: absolute;
+    margin: -145px 0 0 10px;
+}
+.icon-circle2{
+    margin: -120px 0 0 50px;
+}
+.arrowup:hover .icon-circle{
+    width: 100px;
+    height: 100px;
+    margin: 50px 0 0 10px;
+    transition: 0.5s;
+    transform: rotate(180deg);
+}
+.arrowup:hover .icon-circle1{
+margin: -10px 0 0 140px;
+transition: 0.5s;
+transform: rotate(180deg);
+width: 100px;
+height: 100px;
+}
+.arrowup:hover .icon-circle2{
+    margin: -10px 0 0 -120px;
+    transition: 0.5s;
+    transform: rotate(180deg);
+    width: 100px;
+    height: 100px;
+    }
 
 
 

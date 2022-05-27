@@ -46,11 +46,12 @@ margin-top: 70px;
     margin-top: 25px;
 }
 .products-contains{
-    box-shadow: 2px 2px 25px;
+    /* box-shadow: 2px 2px 25px; */
     float: left;
     margin: 50px 0 0 20px;
     width: 950px;
     height: 670px;
+    border-bottom: 0.5px solid black;
     /* border: 5px solid black; */
 }
 
@@ -66,17 +67,17 @@ margin-top: 70px;
     font-weight: bolder;
     font-size: 50px;
     position: absolute;
-    margin: -320px 0 0 300px;
+    margin: -350px 0 0 300px;
 }
 .product-price{
     position: absolute;
     font-weight: bolder;
     font-size: 48px;
     color: red;
-    margin: -190px 0 0 300px;
+    margin: -220px 0 0 300px;
 }
 table{
-margin: -135px 0 0 280px;
+margin: -165px 0 0 280px;
 }
 tr{
     font-size: 38px;

@@ -19,6 +19,8 @@
         margin: 25px 0 0 50px;
     }
 
+    /* ======================
+    ========================================= */
 .product{
     margin: 150px 0 0 0;
 }
@@ -116,7 +118,7 @@ h3{
     margin-left: 35px;
 }
 .color-box,.color-box1{
-    margin: -85px 0 0 185px;
+    margin: -85px 0 0 210px;
     position: absolute;
     width: 25px;
     /* box-shadow: 2px 2px 15px; */

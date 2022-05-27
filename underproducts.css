@@ -1,0 +1,90 @@
+@media screen and (max-width : 1000px) {
+   
+    html,body{
+        width: 100%;
+        margin: auto;
+    }
+    nav{
+        background: linear-gradient(to right, #17525e,rgba(0, 0, 0, 0.567));
+        width: 100%;
+        height: 120px;
+        border: 5px solid black;
+    }
+    .web-name{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        font-size: 55px;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        margin: 25px 0 0 50px;
+    }
+
+/* ===========================
+================================================= */
+
+.productbrand-holder button{
+    float: left;
+    font-size: 48px;
+    margin-left: 35px;
+    width: 300px;
+    height: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    border-radius: 25px;
+    border: none;
+    background-color: lightgray; 
+}
+.productbrand-overflow{
+width: 100%;
+overflow: scroll;
+height: 150px;
+margin-top: 70px;
+}
+.productbrand-holder{
+    width: 220%;
+    height: 100px;
+    margin-top: 25px;
+}
+.products-contains{
+    box-shadow: 2px 2px 25px;
+    float: left;
+    margin: 100px 0 0 20px;
+    width: 950px;
+    height: 600px;
+    /* border: 5px solid black; */
+}
+
+.product-img{
+    width: 250px;
+    margin: 50px 0 0 0;
+}
+.product-name{
+    font-weight: bolder;
+    font-size: 50px;
+    position: absolute;
+    margin: -320px 0 0 300px;
+}
+.product-price{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 48px;
+    color: red;
+    margin: -250px 0 0 300px;
+}
+table{
+margin: -200px 0 0 280px;
+}
+tr{
+    font-size: 38px;
+}
+th{
+    width: 200px;
+    height: 60px;
+}
+td{
+    width: 600px;
+}
+
+
+
+}

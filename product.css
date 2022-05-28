@@ -101,7 +101,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 20px 160px 0 630px;
     color: red;
 }
-.buynow{
+.buynow,.buy-options{
     position: absolute;
     font-size: 46px;
     border-radius: 25px;
@@ -162,10 +162,10 @@ h2,h3{
     width: 900px;
     text-align: justify;
     margin-left: 25px;
-    font-size: 28px;
+    font-size: 20px;
     letter-spacing: 1px;
     word-spacing: 2px;
-    font-family: sans-serif;
+    font-family: serif;
 }
 h3{
     margin: 100px 0 0 25px;
@@ -207,9 +207,34 @@ td{
     font-size: px;
     width: 70%;
 }
+/* --------------------- */
+/* icons */
+.amazon-icon,.flipkart-icon,.mi-icon{
+    width: 100px;
+    margin: 80px 0 0 40px;
+    display: block;
+}
+.mi-price{
+    font-size: 52px;
+    font-weight: bolder;
+    color: red;
+    position: absolute;
+    margin: -85px 0 0 200px;
+}
+.buy-options{
+font-size: 38px;
+width: 250px;
+height: 70px;
+margin: -90px 0 0 450px;
+}
+.buy-options:hover{
+    margin-top: -85px;
+}
 
+
+/* ----------------------- */
 footer{
-    margin-top: 180px;
+    margin-top: 130px;
     margin-left: 2px;
     width: 100.8%;
     height: 170px;

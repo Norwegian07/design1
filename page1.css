@@ -30,7 +30,8 @@ nav{
     background: whitesmoke;
     border-radius: 25px;
     margin: 35px 0 0 25px; 
-    box-shadow: 2px 2px 20px;
+    border: none;
+    box-shadow: 2px 2px 10px black;
 }
 .catagories{
     text-align: left;
@@ -55,6 +56,7 @@ nav{
 }
 
 .hover-container{
+    border-radius: 15px;
     background-color: white;
     position: absolute;
     text-align: center;
@@ -79,7 +81,8 @@ nav{
     height: 100px;
     padding-top: 15px;
     border-radius: 15px;
-    box-shadow: 2px 2px 10px;
+     border-bottom:1px solid black ;
+   /*box-shadow: 2px 2px 5px black; */
     /* border: 2px solid black; */
 }
 .catagories:hover .arrow-img{
@@ -135,17 +138,23 @@ border-bottom-left-radius: 25px;
     float: left;
     width: 420px;
     height: 550px;
+    border: none;
     border-radius: 20px;
-    box-shadow: 2px 2px 25px;
+    box-shadow: 2px 2px 10px black;
     /* border: 3px solid black; */
 }
 
 /* =================images=============== */
 
 .first-img,.first-img3{
+    width: 170px;
+    border-radius: 20px;
+    margin: 25px 0 0 100px;
+}
+.first-img5{
     width: 95%;
     border-radius: 20px;
-    margin: 25px 0 0 10px;
+    margin: 23px 0 0 10px;
 }
 .first-img1{
     width: 200px;
@@ -158,8 +167,13 @@ border-bottom-left-radius: 25px;
     margin: 10px 0 0 50px;
 }
 .first-img3{
-    height: 250px;
-    margin: 40px 0 0px 10px;
+   width: 250px;
+   margin:  40px 0 0px 100px;
+}
+.first-img6{
+    width: 90%;
+    border-radius: 25px;
+    margin: 10px 0 0 20px;
 }
 .first-img4{
     width: 350px;
@@ -231,7 +245,7 @@ border-bottom-left-radius: 25px;
     background-color: orangered;
 }
 .color,.color1,.color2,.color3,.color4,.color5,.color6{
-    background-color: #17525ee9;
+    background-color:#416473;
     width: 250px;
     height: 250px;
     border-top-left-radius: 50%;

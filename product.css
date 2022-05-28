@@ -57,6 +57,7 @@ margin: 48px 0 0 11px;
     transition: 0.5s;
 }
 #navcontent-holder{
+    z-index: 2;
     top: 0;
     text-align: center;
     transition: 0.5s;

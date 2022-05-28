@@ -280,14 +280,14 @@ css========================== */
     font-size: 40px;
     font-weight: bolder;
     font-family: sans-serif;
-    margin-left: 22px;
+    margin-left: 45px;
 }
 .blogtext{
     text-align: center;
     margin: -35px 0 0 70px;
     font-size: 28px;
     width: 700px;
-    color: rgb(170, 170, 170);
+    color: rgba(170, 170, 170, 0.74);
 }
 .read{
     font-size: 50px;
@@ -326,7 +326,7 @@ footer{
     margin-top: 180px;
     margin-left: 2px;
     width: 100.8%;
-    height: 150px;
+    height: 170px;
     box-shadow: 2px 2px 25px;
     /* background: linear-gradient(to right,turquoise,black); */
 }
@@ -334,7 +334,7 @@ footer{
     border: none;
     position: absolute;
     z-index: 2;
-    margin: 5px 0 0 440px; 
+    margin: 20px 0 0 220px; 
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -396,8 +396,17 @@ height: 100px;
     height: 100px;
     }
 
-
-
+    .copyright{
+        font-size: 26px;
+        color: rgb(93, 93, 93);
+        margin: -55px 0 0 700px;
+    }
+    
+    .web-icon{
+        width: 120px;
+        border-radius: 50%;
+        margin: 20px 0 0 125px;
+    }
 
 
 }

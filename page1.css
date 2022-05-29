@@ -5,7 +5,7 @@ html,body{
     margin: auto;
 }
 nav{
-    background: linear-gradient(to right, rgb(64, 224, 208),rgb(0, 0, 0));
+    background: linear-gradient(to right, rgba(64, 224, 208, 0.77),rgba(0, 0, 0, 0.158));
     width: 101.5%;
     height: 120px;
 margin-top: -0.5px;
